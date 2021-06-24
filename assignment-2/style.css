@@ -1,0 +1,164 @@
+ html,body {
+    margin:0;
+    padding:0;
+
+}
+.site-title {
+	margin:0;
+    padding:0;
+
+  font-size: 40px;
+    line-height: 2;
+    position: relative;
+    top: 0;
+    left: 0;
+ 
+     text-decoration: none;
+     color: white;
+
+    font-family: "Roboto";
+   
+     background-color: DodgerBlue;
+         width: 100%;
+         
+         
+}
+a.site-title {
+ text-decoration: none;
+     color: white;
+}
+
+
+ul{
+	list-style-type: none;
+
+
+}
+.navitem{
+
+  display:inline;
+  padding-bottom: 15px;
+
+}
+.navitem a{
+
+	font-family: "Roboto";
+	
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  
+}
+.active a{
+	border-bottom:2px solid DodgerBlue;
+	
+	
+}
+.navitem a:hover {
+  color: DodgerBlue;
+}
+.twit-content a{
+flex-flow: row wrap;
+
+}
+.twit-icon{
+	float: left;
+	position: relative;
+	padding-top: 10px;
+	width:40px;
+	height:40px;
+	font-size:30px;
+	border-radius:75%;
+
+}
+.twit{
+
+	font-family: "Roboto";
+
+width: 25%;
+box-sizing: border-box;
+border-style:solid;
+border-width:1px;
+border-color: Grey;
+float: left;
+left:50px;
+
+margin: 1px;
+
+}
+.twit a:after{
+
+}
+
+.navbar-search{
+
+	position:absolute;
+	right:0;
+	float: right;
+display:inline-block;
+
+margin-right:10px;
+
+}
+#navbar-search-button{
+
+	padding:10px;
+	
+	background: White;
+	color:Black;
+	border:none;
+	cursor:pointer;
+}
+#navbar-search-button:hover{
+	color:DodgerBlue;
+}
+
+
+
+
+.twit-text:after{
+
+display: table;
+clear: both;
+}
+
+.twit-author a:hover{
+
+  color: DodgerBlue;
+}
+}
+#create-twit-button:after{
+	background-color: FireBrick;
+}
+#create-twit-button{
+	font-size:30px;
+	position:fixed;
+	bottom: 0;
+	right: 0;
+	background-color: FireBrick;
+ display:block;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  text-decoration: none;
+  border-radius:100%;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+#create-twit-button:hover{
+background-color:DodgerBlue;
+height: 100px;
+  width: 100px;
+  border-radius: 60%;
+}
+.twit-author{
+	float:right;
+	padding-right: 10px;
+	
+	
+	font-weight:bold;
+	font-family: Roboto;
+}
+
+}
+
